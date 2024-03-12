@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Instagram Sans';
+  src: local('Instagram Sans Medium'), local('Instagram-Sans-Medium'),
+      url('InstagramSans-Medium.woff2') format('woff2'),
+      url('InstagramSans-Medium.woff') format('woff'),
+      url('InstagramSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background: #00ffbf;
+}
+
+.animated-mail {
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  height: 150px;
+  width: 200px;
+  transform-origin: 50% 50%;
+  visibility: hidden;
+}
+
+.animated-mail .back-fold {
+  position: absolute;
+  bottom: 0;
+  width: 350px;
+  height: 85px;
+  background: #0f0f0f;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.animated-mail .letter {
+  left: 20px;
+  bottom: 0px;
+  position: absolute;
+  width: 310px;
+  height: 60px;
+  background: white;
+  border-radius: 10px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.topbar {
+  height: 30px;
+}
+
+.photo {
+  height: 310px;
+}
+
+.lowerbar {
+  height: 30px;
+}
+
+#instaava {
+  position: absolute;
+  left: 10px;
+  top: 3px;
+}
+
+#instaname {
+  position: absolute;
+  left: 40px;
+  top: 3px;
+  font-family: 'Instagram Sans';
+}
+
+#serduszko {
+  position: absolute;
+  left: 5px;
+  top: 342px;
+}
+
+#komentarz {
+  position: absolute;
+  left: 45px;
+  top: 342px;
+}
+
+#wyslij {
+  position: absolute;
+  left: 85px;
+  top: 342px;
+}
+
+#zapisz {
+  position: absolute;
+  right: 5px;
+  top: 342px;
+}
+
+#iglogo {
+  position: absolute;
+  left: 17.5px;
+  top: 17.5px;
+}
+
+#igname {
+  color: white;
+  font-family: 'Instagram Sans';
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 4px;
+}
